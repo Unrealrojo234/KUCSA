@@ -1,0 +1,30 @@
+#logo {
+  background-image: url("../public/logo.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: anim infinite 4s linear;
+}
+
+@keyframes anim {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+#title {
+  background-image: url("../public/space.png");
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+  background-position: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Steelfish Rg", "helvetica neue", helvetica, arial, sans-serif;
+  font-weight: 800;
+  -webkit-font-smoothing: antialiased;
+}

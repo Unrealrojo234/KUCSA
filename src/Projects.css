@@ -1,0 +1,33 @@
+.embla {
+  overflow: hidden;
+  display: block;
+  margin: auto;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+  border: 1px solid #3e207c;
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  margin: auto;
+}
+
+@media screen and (min-width: 481px) {
+  .embla {
+    max-width: 71%;
+    margin: auto;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .embla {
+    max-width: 50%;
+    margin: auto;
+    display: block;
+  }
+}

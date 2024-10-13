@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(14, 13, 13);
+  color: whitesmoke;
+}
+
+.keys {
+  color: #3e207c;
+  font-weight: 800;
+  font-size: 200%;
+  text-shadow: 1px 1px whitesmoke;
+}
+
+a {
+  text-decoration: underline;
+  color: aliceblue;
+}
+
+.col {
+  margin: 10px;
+  padding: 12px;
+  border: 1px solid #3e207c;
+}
+
+@media screen and (min-width: 500px) {
+  body {
+    max-width: 70%;
+    display: block;
+    margin: auto;
+  }
+}
+
+/* font display  */
+
+q,
+h3,
+li,
+p {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+}
